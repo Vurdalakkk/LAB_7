@@ -51,7 +51,8 @@ Default
 
 ### Блок-схема
 
-<img width="861" height="2632" alt="LAB_7" src="https://github.com/user-attachments/assets/7b4d9683-7ae0-41aa-bf9b-0ac077932528" />
+<img width="861" height="2632" alt="LAB_7_DZ" src="https://github.com/user-attachments/assets/6db02a87-3519-4df0-a505-0c5d146f490a" />
+
 
 
 
