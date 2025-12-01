@@ -70,12 +70,13 @@ int main() {
     setlocale(LC_CTYPE, "RUS");
     // Создание перменных
     int month, days;
+    int n_day, n_month;
     // Ввод значений прошедших дней и месяцев
     puts("Введите количество дней и месяцев, прошедших с января 2000 года:");
     scanf("%d %d",&days, &month);
     // Примерное вычисление результатов
-    int n_month = 1 + month;
-    int n_day = 1 + days;
+    n_month = 1 + month;
+    n_day = 1 + days;
     // Проверка на правильное количество дней
     switch (n_month) {
     case 1: 
@@ -107,13 +108,17 @@ int main() {
             n_month++;
         }
         break;
-    default: puts("Вы ввели некорректное значение месяцев");
+    default: {
+        printf("Вы ввели некорректный месяц");
+        return 0;
+    }
+        
     }
 
   // Вывод результатов
     printf("Текущая дата - %d . %d ", n_day, n_month);
-    
     return 0;
+   
 }
 ```
 <div align="center">
